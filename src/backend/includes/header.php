@@ -11,9 +11,10 @@ $origin = $_SERVER['HTTP_ORIGIN'] ?? '';
 $allowed_origins = [
     'http://localhost',
     'http://localhost:3000',
-    'http://192.168.0.12:3000',
-    'http://192.168.0.12'
+    'http://54.197.67.109',
+    'https://54.197.67.109',
 ];
+
 
 // Check if the origin is in the allowed list
 if (in_array($origin, $allowed_origins)) {
