@@ -1,0 +1,17 @@
+{
+    "name": "clarence/mmwghpharmacy",
+    "description": "An Implementation of PHP and VUE to manage inventory for a pharmacy",
+    "type": "project",
+    "require": {
+        "firebase/php-jwt": "^6.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Interfaces\\": "interfaces/",
+            "Services\\": "services/",
+            "Controllers\\": "controllers/",
+            "Database\\": "database/",
+            "Utils\\": "utils/"
+        }
+    }
+}
