@@ -4,6 +4,8 @@
 1. Docker
     1. cd ./project_root
     2. docker compose up
+    3. "localhost" to access nuxt instance
+    4. "localhost:8080" to access phpmyadmin
 
 2. Manual
     1. MYSQL

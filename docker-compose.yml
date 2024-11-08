@@ -41,6 +41,7 @@ services:
     container_name: caddy_proxy
     ports:
       - "80:80"
+      - "443:443"
     volumes:
       - ./Caddyfile:/etc/caddy/Caddyfile
     networks:
